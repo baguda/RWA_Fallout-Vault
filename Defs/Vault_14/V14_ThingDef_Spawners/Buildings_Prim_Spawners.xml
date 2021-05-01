@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <ThingDef ParentName="BuildingBase"> 
+    <defName>V14_RaidersRanged</defName>
+    <label>V14_RaidersRanged</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Adventure/spawner</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>00</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>V14_RaidersRanged</description>
+    <canOverlapZones>true</canOverlapZones>
+	
+    <selectable>false</selectable>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>10</thirdsBetweenSpawns> 
+		<numberToSpawn>1</numberToSpawn>
+		<pawnKind>Mercenary_Gunner_Acidifier</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>true</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>10</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName>AdventureHostile</FactionDefName>
+		<useFaction>false</useFaction>
+      </li>
+  
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+   <ThingDef ParentName="BuildingBase"> 
+    <defName>V14_Raiders</defName>
+    <label>V14_Raiders</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Adventure/spawner</texPath>
+      <graphicClass>Graphic_single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>00</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>V14_Raiders</description>
+    <canOverlapZones>true</canOverlapZones>
+	
+    <selectable>false</selectable>
+    <size>(1,1)</size>
+    <comps>
+	<li Class="DungeonFrameWork.CompProperties_PawnSpawner">
+		<isPlayer>false</isPlayer>
+		<thirdsBetweenSpawns>10</thirdsBetweenSpawns> 
+		<numberToSpawn>1</numberToSpawn>
+		<pawnKind>Mercenary_Slasher_Acidifier</pawnKind>
+		<newborn>false</newborn>
+		<selfDestruct>true</selfDestruct>
+		<isProxy>true</isProxy>
+		<isDamageSwitch>false</isDamageSwitch>
+		<DamagePercent>50</DamagePercent>
+		<getDrops>true</getDrops>
+		<proxyRadius>10</proxyRadius>
+		<lordJob>assault</lordJob>
+		<FactionDefName>AdventureHostile</FactionDefName>
+		<useFaction>false</useFaction>
+      </li>
+  
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+</Defs>

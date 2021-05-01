@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+   <DungeonFrameWork.DungeonDef>
+	<!--Basic-->
+		<defName>Vault14aa</defName>
+		<label>Top level of the vault</label>
+		
+	<!--Labyrinth Gen-->
+		<PathWidth>3</PathWidth>        
+		<MapSize>(100,1,100)</MapSize>
+        <WorldObjName>Vault14Parent</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<TargetBiome>TemperateSwamp</TargetBiome>
+        <StepsAway>50</StepsAway>
+		<Enclosed>false</Enclosed>
+		
+		<UseNodeRoom>false</UseNodeRoom>
+		<ScaleGridToPath>true</ScaleGridToPath>
+		<GridScaleCoef>15</GridScaleCoef>
+		<NodeRoomsOnlyOnEnds>true</NodeRoomsOnlyOnEnds>
+		<isSegmented>false</isSegmented>
+		<isDoored>false</isDoored>
+		<ConditionTile>false</ConditionTile>
+		<MakeFilth>false</MakeFilth>
+		<FilthFactor>0.2</FilthFactor>
+		
+		<DungeonGenThingDefs>
+		<li>ChunkSlagSteel</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkLimestone</li>
+		<li>ChunkMarble</li>
+		<li>ChunkSlate</li>
+		<li>V14_BarrelsToxicA</li>
+		</DungeonGenThingDefs>
+	<!--Labyrinth Details-->	
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>true</isShellFloored>
+        <isCaveLike>true</isCaveLike>
+		<UseBlockFloors>false</UseBlockFloors>
+	
+		
+	<!--Enterance and exit-->
+        <isWalkIn>true</isWalkIn>	
+        <isInZDir>false</isInZDir>
+        <isInPosDir>true</isInPosDir>
+		
+		<isWalkOut>false</isWalkOut>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+		
+        <isOutDoored>false</isOutDoored>
+	
+	<!--DefNames-->	
+        <BlockDefName>Slate</BlockDefName>
+        <FloorDefName>MarshyTerrain</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>BlocksSandstone</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+		<EnterenceDefName>GlowPod</EnterenceDefName>
+		<ExitDefName>Vault14MainElevator</ExitDefName>
+		
+		<UseExit>true</UseExit>
+        <encounterDefNames>
+			<li>V14_Raiders_Basic</li>
+		</encounterDefNames>
+		<LinkedLabyrinthDefNames>
+		</LinkedLabyrinthDefNames>
+
+	<!--Shapes-->			
+		<ShapeList>
+		<li Class="MapToolBag.IntVecShape">
+			<ShapeName>Circle</ShapeName>
+			<PointA>(15,0,10)</PointA>
+			<PointB>(85,0,90)</PointB>
+			<PointC>(110,0,18)</PointC>
+			<isNegative>true</isNegative>
+		</li>
+
+		</ShapeList>
+
+		
+	</DungeonFrameWork.DungeonDef>
+	
+	<!--*****************************************************************************************************************************-->
+	
+	
+	
+	 <DungeonFrameWork.DungeonDef>
+	<!--Basic-->
+		<defName>Vault14b</defName>
+		<label>Vault 14</label>
+		
+	<!--Labyrinth Gen-->
+		<PathWidth>2</PathWidth>        
+		<MapSize>(100,1,100)</MapSize>
+        <WorldObjName>Vault14Parent</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<TargetBiome>Desert</TargetBiome>
+        <StepsAway>50</StepsAway>
+		<Enclosed>true</Enclosed>
+		<UseNodeRoom>true</UseNodeRoom>
+		<ScaleGridToPath>false</ScaleGridToPath>
+		<GridScaleCoef>15</GridScaleCoef>
+		<NodeRoomsOnlyOnEnds>true</NodeRoomsOnlyOnEnds>
+		<isSegmented>true</isSegmented>
+		<isDoored>false</isDoored>
+		<ConditionTile>false</ConditionTile>
+		<MakeFilth>true</MakeFilth>
+		
+		<FilthFactor>0.6</FilthFactor>
+		<DungeonGenThingDefs>
+		<li>Vault14TrashA</li>
+		<li>Vault14TrashB</li>
+		<li>Vault14TrashC</li>
+		<li>Vault14TrashD</li>
+		<li>V14_BarrelsToxicA</li>
+		</DungeonGenThingDefs>
+	<!--Labyrinth Details-->	
+        <!--isOutlined>false</isOutlined-->
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>true</isShellFloored>
+        <isCaveLike>false</isCaveLike>
+		<UseBlockFloors>false</UseBlockFloors>
+		<UseDarkness>true</UseDarkness>
+		<dungeonLightLevel>0.15</dungeonLightLevel>
+		<dungeonColor>(255,255,255)</dungeonColor>
+		<dungeonColorSaturation>1.5</dungeonColorSaturation>
+	<!--Enterance and exit-->
+        <isWalkIn>false</isWalkIn>	
+        <isInZDir>true</isInZDir>
+        <isInPosDir>true</isInPosDir>
+		
+		<isWalkOut>false</isWalkOut>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+		
+        <isOutDoored>false</isOutDoored>
+	
+	<!--DefNames -->	
+        <BlockDefName>VaultLuxWallsNormalseventy</BlockDefName> 
+        <FloorDefName>vtfloor</FloorDefName>
+        <DoorDefName>VTDoor</DoorDefName>
+        <BlockStuffDefName>BlocksSandstone</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+		<EnterenceDefName>Vault14InnerDoor</EnterenceDefName>
+		<ExitDefName>vtcomputer</ExitDefName>
+		<UseExit>true</UseExit>
+		<!--WeatherDefName>RPGGloom</WeatherDefName-->
+        <encounterDefNames>
+			<li>V14_Raiders_Basic</li>
+			<li>V14_Raiders_Advanced</li>
+		</encounterDefNames>
+		<LinkedLabyrinthDefNames>
+		<li></li>
+		</LinkedLabyrinthDefNames>
+
+	<!--Shapes-->			
+		<!--ShapeList>
+		<li Class="MapToolBag.IntVecShape">
+			<ShapeName>circle</ShapeName>
+			<PointA>(06,0,026)</PointA>
+			<PointB>(110,0,110)</PointB>
+			<PointC>(60,0,10)</PointC>
+			<isNegative>true</isNegative>
+		</li>
+
+		</ShapeList-->
+
+		<LotsList>
+		<li>V14_Workshop13x10T1</li>
+		<li>V14_Medi15x15T6</li>
+		<li>V14_Living10x16T2v</li>
+		<li>V14_Muti10x16T2v</li>
+		<li>V14_Mess16x10T2h</li>
+		<li>V14_Work10x13T1v</li>
+		<li>V14_Living10x10T3</li>
+		<li>V14_Living10x16T2vv</li>
+		<li>V14_Overseer15x15T6</li>
+		<li>V14_Medi13x10T1h</li>
+		<li>V14_Power16x13T4</li>
+		<li>V14_Storage15x15T6</li>
+		<li>V14_Planting10x10T3</li>
+		<li>V14_Living10x13T1v</li>
+		<li>V14_Living15x15T6</li>
+		<li>V14_Rec13x10T1h</li>
+		<li>V14_Living16x10T2h</li>
+		<li>V14_Prison13x16T4v</li>
+		</LotsList>
+		
+	</DungeonFrameWork.DungeonDef>
+	
+	
+	
+	
+		
+	 <DungeonFrameWork.DungeonDef>
+	<!--Basic-->
+		<defName>Vault14a</defName>
+		<label>Vault 14</label>
+		
+	<!--Labyrinth Gen-->
+		<PathWidth>3</PathWidth>        
+		<MapSize>(100,1,100)</MapSize>
+        <WorldObjName>Vault14Parent</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<TargetBiome>TemperateSwamp</TargetBiome>
+        <StepsAway>50</StepsAway>
+		<Enclosed>false</Enclosed>
+		<UseNodeRoom>false</UseNodeRoom>
+		<ScaleGridToPath>true</ScaleGridToPath>
+		<GridScaleCoef>15</GridScaleCoef>
+		<NodeRoomsOnlyOnEnds>true</NodeRoomsOnlyOnEnds>
+		<isSegmented>false</isSegmented>
+		<isDoored>false</isDoored>
+		<ConditionTile>false</ConditionTile>
+		<MakeFilth>true</MakeFilth>
+		
+		<FilthFactor>0.2</FilthFactor>
+		<DungeonGenThingDefs>
+		<li>Vault14TrashA</li>
+		<li>Vault14TrashB</li>
+		<li>Vault14TrashC</li>
+		<li>Vault14TrashD</li>		
+		<li>ChunkSlagSteel</li>
+		<li>ChunkSandstone</li>
+		<li>ChunkLimestone</li>
+		<li>ChunkMarble</li>
+		<li>ChunkSlate</li>
+		</DungeonGenThingDefs>
+	<!--Labyrinth Details-->	
+        <!--isOutlined>false</isOutlined-->
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>true</isShellFloored>
+        <isCaveLike>true</isCaveLike>
+		<UseBlockFloors>false</UseBlockFloors>
+		<UseDarkness>false</UseDarkness>
+		<dungeonLightLevel>0.15</dungeonLightLevel>
+		<dungeonColor>(255,255,255)</dungeonColor>
+		<dungeonColorSaturation>1.5</dungeonColorSaturation>
+	<!--Enterance and exit-->
+        <isWalkIn>true</isWalkIn>	
+        <isInZDir>true</isInZDir>
+        <isInPosDir>false</isInPosDir>
+		
+		<isWalkOut>false</isWalkOut>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+		
+        <isOutDoored>false</isOutDoored>
+	
+	<!--DefNames -->	
+        <BlockDefName>Slate</BlockDefName> 
+        <FloorDefName>MarshyTerrain</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>BlocksSlate</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+		<EnterenceDefName>Vault14InnerDoor</EnterenceDefName>
+		<ExitDefName>Vault14MainElevator</ExitDefName>
+		<UseExit>true</UseExit>
+		<!--WeatherDefName>RPGGloom</WeatherDefName-->
+        <encounterDefNames>
+			<li>V14_Raiders_Basic</li>
+		</encounterDefNames>
+		<LinkedLabyrinthDefNames>
+		</LinkedLabyrinthDefNames>
+
+	<!--Shapes-->			
+		<ShapeList>
+		<li Class="MapToolBag.IntVecShape">
+			<ShapeName>circle</ShapeName>
+			<PointA>(06,0,026)</PointA>
+			<PointB>(90,0,90)</PointB>
+			<PointC>(60,0,10)</PointC>
+			<isNegative>true</isNegative>
+		</li>
+
+		</ShapeList>
+
+
+		
+	</DungeonFrameWork.DungeonDef>
+	
+	
+	
+   </Defs>

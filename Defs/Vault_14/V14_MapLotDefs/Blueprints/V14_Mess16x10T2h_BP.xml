@@ -1,0 +1,976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<BlueprintDef>
+	<defName>V14_Mess16x10T2h_BP</defName>
+	<Blueprint>
+		<BuildableThings>
+			<li>
+				<ThingDef>vault_lampb</ThingDef>
+				<Stuff>Leather_Fox</Stuff>
+				<Position>(-6, 0, 0)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-5, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>vt_minitable</ThingDef>
+				<Stuff>WoolBison</Stuff>
+				<Position>(-5, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Vtarmchair</ThingDef>
+				<Stuff>vtblueCloth</Stuff>
+				<Position>(-5, 0, 1)</Position>
+			</li>
+			<li>
+				<ThingDef>vt_minitable</ThingDef>
+				<Stuff>WoolBison</Stuff>
+				<Position>(-5, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-5, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-4, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>Vtarmchair</ThingDef>
+				<Stuff>vtblueCloth</Stuff>
+				<Position>(-4, 0, -2)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>Vtarmchair</ThingDef>
+				<Stuff>vtblueCloth</Stuff>
+				<Position>(-4, 0, 2)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-4, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(-2, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(-2, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(-2, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(0, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(0, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(2, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(2, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, -1)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(4, 0, 0)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoor</ThingDef>
+				<Position>(4, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(4, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>vt_miniminitable</ThingDef>
+				<Stuff>WoodLog</Stuff>
+				<Position>(5, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>vtcompter</ThingDef>
+				<Position>(5, 0, 4)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(6, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>VaultLuxWallsseventywwindow</ThingDef>
+				<Position>(6, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>vault_lampb</ThingDef>
+				<Stuff>Leather_Fox</Stuff>
+				<Position>(7, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>VTElectricStove</ThingDef>
+				<Position>(7, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>vault_lampb</ThingDef>
+				<Stuff>Leather_Fox</Stuff>
+				<Position>(7, 0, 4)</Position>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinertw</TerrainDef>
+				<Position>(-3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(-1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(0, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(0, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(0, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dinercyan</TerrainDef>
+				<Position>(3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>dineryellow</TerrainDef>
+				<Position>(7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(8, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+		</BuildableThings>
+		<Name>V14_Mess16x10T2h_BP</Name>
+		<Size>(16, 10)</Size>
+	</Blueprint>
+</BlueprintDef>
+</Defs>

@@ -1,0 +1,1448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<BlueprintDef>
+	<defName>V14_Storage15x15T6_BP</defName>
+	<Blueprint>
+		<BuildableThings>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-7, 0, -3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-7, 0, -3)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(-7, 0, -1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(-7, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-7, 0, 3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-7, 0, 3)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-6, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-6, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-5, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-5, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-4, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-4, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-3, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-3, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-3, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-3, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-3, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(-3, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, -5)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Column</ThingDef>
+				<Stuff>Uranium</Stuff>
+				<Position>(-2, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>Column</ThingDef>
+				<Stuff>Uranium</Stuff>
+				<Position>(-2, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(-2, 0, 6)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(-1, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(-1, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(1, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(1, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, -6)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, -5)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, -4)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, -3)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>Column</ThingDef>
+				<Stuff>Uranium</Stuff>
+				<Position>(2, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>Column</ThingDef>
+				<Stuff>Uranium</Stuff>
+				<Position>(2, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, 3)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, 4)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, 5)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(2, 0, 6)</Position>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(3, 0, -7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(3, 0, -7)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(3, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(3, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(3, 0, 7)</Position>
+				<Rotation>2</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(3, 0, 7)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(4, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(4, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(5, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(5, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(6, 0, -2)</Position>
+			</li>
+			<li>
+				<ThingDef>groundlinevaultyellow</ThingDef>
+				<Stuff>vtyellowCloth</Stuff>
+				<Position>(6, 0, 2)</Position>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(7, 0, -3)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(7, 0, -3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(7, 0, -1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VTDoorwindow</ThingDef>
+				<Position>(7, 0, 1)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(7, 0, 3)</Position>
+				<Rotation>3</Rotation>
+			</li>
+			<li>
+				<ThingDef>VT_Wall_LampE</ThingDef>
+				<Position>(7, 0, 3)</Position>
+				<Rotation>1</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-7, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-6, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-6, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-6, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-5, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-5, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-5, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-4, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-4, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-4, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-3, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-3, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-3, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(-2, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-2, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-1, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(-1, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(-1, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(0, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(0, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(0, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(1, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(1, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(1, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(2, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(2, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(2, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(2, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(2, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(2, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(3, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(3, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(3, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(3, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(3, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(4, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(4, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(4, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(4, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(5, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(5, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(5, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(5, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(5, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(6, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(6, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloor</TerrainDef>
+				<Position>(6, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>concretefloore</TerrainDef>
+				<Position>(6, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(6, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, -1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 0)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 1)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 2)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 3)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 4)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 5)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 6)</Position>
+				<Rotation>200</Rotation>
+			</li>
+			<li>
+				<TerrainDef>vtfloor</TerrainDef>
+				<Position>(7, 0, 7)</Position>
+				<Rotation>200</Rotation>
+			</li>
+		</BuildableThings>
+		<Name>V14_Storage15x15T6_BP</Name>
+		<Size>(15, 15)</Size>
+	</Blueprint>
+</BlueprintDef>
+</Defs>

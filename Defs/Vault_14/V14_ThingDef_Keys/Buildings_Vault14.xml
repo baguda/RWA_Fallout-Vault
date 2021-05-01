@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<!--
+		
+		Vault 14 will spawn with top level as walk-in with key at end to lvl2 
+		Vault14Finder: key to spawn vault on world map and make top laver
+		Vault14MainElevator: key at back of top level that goes to lvl2
+		
+	-->
+	
+  	<ThingDef ParentName="BuildingBase">
+		<defName>Vault14Finder</defName>
+		<label>Vault-Tech Transponder</label>
+		<description>This machine is built from refurbished Vault-Tech equipment and parts. It can interface with a Pre-War Vault-Tech Satellite to extract data.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/VaultScanner</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+    <researchPrerequisites>
+      <li>VTproduce</li>
+    </researchPrerequisites>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<designationCategory>Misc</designationCategory>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+			<!--V14VaultTechSatellite>1</V14VaultTechSatellite-->
+		</costList>
+		<comps>
+		
+				<li Class="CompProperties_Forbiddable"/>
+				<li Class="CompProperties_Power">
+					<compClass>CompPowerTrader</compClass>
+					<basePowerConsumption>500</basePowerConsumption>
+				</li>
+				<li Class="CompProperties_Breakdownable"/>
+				<li Class="CompProperties_Flickable"/>
+				<li Class="CompProperties_Mannable">
+					<manWorkType>ManualSkilled</manWorkType>
+				</li>
+			
+				<li Class="DungeonFrameWork.CompProperties_DungeonKey" >
+				<LabyrinthDefNameQueue>
+					<li>Vault14a</li>
+				</LabyrinthDefNameQueue>
+				<QueueRandom>false</QueueRandom>
+				<UseTargetBiome>true</UseTargetBiome>
+				<isPortal>false</isPortal>
+				<ShowAdventureInfo>false</ShowAdventureInfo>
+				<UseSameTile>false</UseSameTile>
+				<CycleLabyrinths>false</CycleLabyrinths>		
+				<PortalRadius>4</PortalRadius>
+				
+				<ButtonGraphicPath>dev/Vault14</ButtonGraphicPath>
+				<ButtonLabel>Decode Vault Location</ButtonLabel>
+				<ButtonDesc>Use your pipboy to open the vault!</ButtonDesc>
+				
+				<PullButtonGraphicPath>dev/Pullout</PullButtonGraphicPath>
+				<PullButtonLabel>Pull Out</PullButtonLabel>
+				<PullButtonDesc>Pull things around the Labyrinth enterance to the key!</PullButtonDesc>
+				
+				<PushButtonGraphicPath>dev/Pushin</PushButtonGraphicPath>
+				<PushButtonLabel>Push In</PushButtonLabel>
+				<PushButtonDesc>Push things around the key to the labyrinth enterance!</PushButtonDesc>	
+				
+				
+				<GenButtonText>Locate Vault</GenButtonText>
+				<GenDialogText>"The machine quickly accesses the satellite's hard drive and begins scanning for \n\n(WARNING: Generating new dungeons can take considerable amounts of time depending on your hardware. \n\t\t\tPlease wait while the process completes.)"</GenDialogText>				
+								
+			</li>
+ <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.00</fuelConsumptionRate>
+        <fuelCapacity>1.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>V14VaultTechSatellite</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+      </li>
+		</comps>
+		
+		<statBases>
+			<MaxHitPoints>275</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+	
+		<ThingDef ParentName="BuildingBase">
+		<defName>Vault14MainElevator</defName>
+		<label>Vault 14 Main Door</label>
+		<description>The door of Vault 14...</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/Vault14Door</texPath>
+			<drawSize>(5,5)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<designationCategory>Misc</designationCategory>
+			<building>
+      <isInert>false</isInert>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <deconstructible>false</deconstructible>
+      <destroyShakeAmount>1</destroyShakeAmount>
+    </building>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="DungeonFrameWork.CompProperties_DungeonKey" >
+				<LabyrinthDefNameQueue>
+					<li>Vault14b</li>
+				</LabyrinthDefNameQueue>
+				<QueueRandom>true</QueueRandom>
+				<UseTargetBiome>false</UseTargetBiome>
+				<UseSameTile>true</UseSameTile>
+				<isPortal>true</isPortal>
+				<CycleLabyrinths>false</CycleLabyrinths>		
+				<PortalRadius>4</PortalRadius>
+				
+				<ButtonGraphicPath>dev/Vault14</ButtonGraphicPath>
+				<ButtonLabel>Open the Vault</ButtonLabel>
+				<ButtonDesc>Use your pipboy to open the vault!</ButtonDesc>
+				<ShowAdventureInfo>false</ShowAdventureInfo>
+				<PullButtonGraphicPath>dev/Pullout</PullButtonGraphicPath>
+				<PullButtonLabel>Pull Out</PullButtonLabel>
+				<PullButtonDesc>Pull things around the Vault enterance to the outside!</PullButtonDesc>
+				
+				<PushButtonGraphicPath>dev/Pushin</PushButtonGraphicPath>
+				<PushButtonLabel>Push In</PushButtonLabel>
+				<PushButtonDesc>Push things around the Vault enterance into the Vault!</PushButtonDesc>
+				<GenButtonText>Generate Dungeon</GenButtonText>
+				<GenDialogText>"The Vault's main door looks like it has been tampered with.  \n\n(WARNING: Generating new dungeons can take considerable amounts of time depending on your hardware. \n\t\t\tPlease wait while the process completes.)"</GenDialogText>				
+							
+							
+			</li>
+
+		</comps>
+		<statBases>
+			<MaxHitPoints>7500</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+
+<ThingDef ParentName="BuildingBase">
+		<defName>V14_BarrelsToxicA</defName>
+		<label>Toxic Barrels</label>
+		<description>Barrels filled with toxic waste.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/BarrelsToxic1</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>5</Steel>
+			<Plasteel>15</Plasteel>
+			<Chemfuel>30</Chemfuel>
+		</costList>
+		<comps>
+			      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(50,200,150,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Vault14TrashA</defName>
+		<label>Pile of rubble</label>
+		<description>Looks like this place is falling apart.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/trash1</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>20</Plasteel>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<comps>
+			      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(50,100,180,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+<ThingDef ParentName="BuildingBase">
+		<defName>Vault14TrashB</defName>
+		<label>Pile of rubble</label>
+		<description>Looks like this place is falling apart.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/trash2</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>120</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<comps>
+						      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(150,100,230,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Vault14TrashC</defName>
+		<label>Pile of rubble</label>
+		<description>Looks like this place is falling apart.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/trash3</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<comps>
+						      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(100,100,10,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Vault14TrashD</defName>
+		<label>Pile of rubble</label>
+		<description>Looks like this place is falling apart.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/trash4</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>30</ComponentSpacer>
+		</costList>
+		<comps>
+						      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(150,10,180,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+
+<ThingDef ParentName="BuildingBase">
+		<defName>Vault14InnerDoor</defName>
+		<label>The Vault's Exit</label>
+		<description>The main door to leave vault 14</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/Vault14DoorInner</texPath>
+			<drawSize>(4,4)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(4,4)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<comps>
+						      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(180,180,180,0)</glowColor>
+      </li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+	
+		<defName>vtcomputer</defName>
+		<label>Vault Terminal</label>
+		<description>This is the overseer's terminal, it can control the main vault systems! If only I can gain access... Increases production by 10%.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/terminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<rotatable>true</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>8</pathCost>
+		<fillPercent>0.15</fillPercent>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>	
+		<minifiedDef>MinifiedThing</minifiedDef>
+		
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		
+		<designationCategory>Misc</designationCategory>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>0.5</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>	
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>5</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			
+			<li Class="CompProperties_Facility">
+			<statOffsets>
+				<WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+			</statOffsets>
+			<maxDistance>5</maxDistance>
+			<maxSimultaneous>4</maxSimultaneous>
+			</li>
+			<li Class="FalloutTerminal.CompProperties_Terminal">
+			
+			
+			</li>
+			
+				<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>ManualSkilled</manWorkType>
+			</li>
+			
+		</comps>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<destroyable>true</destroyable>
+		<tradeability>None</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>VaultFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+<ThingDef ParentName="BuildingBase">
+		<defName>V14_mattress</defName>
+		<label>Dirty Mattress</label>
+		<description>As far as needs go, you're better off just not sleeping...</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/DirtyMattress</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>250</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+		</costList>
+		<comps>
+
+			
+		
+		</comps>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>17.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+
+<ThingDef ParentName="BuildingBase">
+		<defName>V14_burnBarrel</defName>
+		<label>Burn Barrel</label>
+		<description>A nice toasty burn barrel.</description>
+
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>dev/BarrelBurning</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+		<fillPercent>0.15</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<hasInteractionCell>false</hasInteractionCell>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>5</Steel>
+			<WoodLog>2</WoodLog>
+		</costList>
+		<comps>
+				
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(180,180,170,0)</glowColor>
+			</li>
+		</comps>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<MarketValue>350</MarketValue>
+			<Mass>7.5</Mass>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<placeWorkers>
+		</placeWorkers>
+	</ThingDef>
+	
+	
+	  <ThingDef ParentName="ResourceBase">
+    <defName>V14VaultTechSatellite</defName>
+    <label>pre-war Vault-Tech satellite</label>
+    <description>A Vault-Tech satellite from before the war that recently reentered the atmosphere. The tech is very advanced, but with some extra equipment you may be able to unlock its secrets.</description>
+    <graphicData>
+      <texPath>dev/Satellite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>40000</MarketValue>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>20</Mass>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <tradeability>None</tradeability>
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+	
+	
+<FalloutTerminal.TerminalHackDef>
+	<defName>HackA</defName>
+	<Title>Welcome to ROBCO Industries (TM) Termlink. Password Required:</Title> 
+	<Words>
+	<li>FIELD</li>
+	<li>YIELD</li>
+	<li>LISTS</li>
+	<li>TALKS</li>
+	<li>SAMBA</li>
+	<li>SPREE</li>
+	<li>AHEAD</li>
+	<li>BULLY</li>
+	<li>SEVEN</li>
+	<li>SHEER</li>
+	<li>FIBER</li>
+	</Words>
+
+</FalloutTerminal.TerminalHackDef>
+<FalloutTerminal.TerminalHackDef>
+	<defName>HackB</defName>
+	<Words>
+	<li>THREE</li>
+	<li>LANCE</li>
+	<li>CHECK</li>
+	<li>JAMES</li>
+	<li>HALLS</li>
+	<li>TASKS</li>
+	<li>THICK</li>
+	<li>HIRED</li>
+	<li>CLIPS</li>
+	<li>WAVES</li>
+	<li>HATES</li>
+	<li>HATCH</li>
+	<li>CATCH</li>
+	<li>TABLE</li>
+	<li>WIELD</li>
+	<li>ROOMS</li>
+	<li>FALSE</li>
+	</Words>
+
+</FalloutTerminal.TerminalHackDef>
+
+<FalloutTerminal.TerminalHackDef>
+	<defName>HackC</defName>
+	<Words>
+	<li>EMPTY</li>
+	<li>ENACT</li>
+	<li>SWORE</li>
+	<li>HELPS</li>
+	<li>KNOWS</li>
+	<li>NAMES</li>
+	<li>STAKE</li>
+	<li>MARKS</li>
+	<li>LARGE</li>
+	<li>PRICE</li>
+	<li>UNITE</li>
+	<li>STARK</li>
+	<li>TORCH</li>
+	<li>HANDY</li>
+	<li>WHITE</li>
+	</Words>
+
+</FalloutTerminal.TerminalHackDef>
+<FalloutTerminal.TerminalHackDef>
+	<defName>HackD</defName>
+	<Words>
+	<li>NOISE</li>
+	<li>SCENE</li>
+	<li>BOOST</li>
+	<li>CHEAT</li>
+	<li>CROSS</li>
+	<li>BASED</li>
+	<li>GREED</li>
+	<li>BOOTS</li>
+	<li>BRINK</li>
+	<li>CLUBS</li>
+	<li>CHEAP</li>
+	<li>WOMEN</li>
+	<li>JOKES</li>
+	<li>SCOOT</li>
+	<li>CASED</li>
+	</Words>
+
+</FalloutTerminal.TerminalHackDef>
+</Defs>

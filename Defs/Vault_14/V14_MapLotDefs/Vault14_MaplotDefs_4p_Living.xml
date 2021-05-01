@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- 	
+			Rooms for Labyrinth PathWidth = 4 
+			
+			LotName must be filled in and unquie! But unlike defNames they can end in a number.  
+			LotTag will be used in future for controlled randomization
+			
+			The lotSize x and z values for labyrinth spawning will be proportional to LabyrinthDef PathWidth value, 
+			will be combination of L1,L2 or L3, where p is pathWidth  
+			p=4
+			L1=2(p+1)=10, L2=3(p+1)=15 ,L3=4(p+1)=20
+			
+			There are 5 possible room types: T1,T2,T3,T4,and T5. 
+			T1,T2,and T4 have rotational varients v/h, thier shape positions are wrt the bottom left  
+			T3 and T5 are radial so their positions are wrt a focal point (tick intersection)
+			T1=L1xL2 = 10x15 || 15x10
+			T2=L1xL3 = 10x20 || 20x10
+			T3=L2xL2 = 15x15 (L shaped)
+			T4=L2xL3 = 15x20 || 20x15 (T shaped)
+			T5=L3xL3 = 20x20 (+ shaped)
+			
+			==Shapes==
+			ShapeNameTag must be filled and unique to other shapes
+			ShapeDefTag is the DefName of the thingDef or TerrainDef you want to spawn in as shape
+			ShapeStuffTag is the stuff the DefName (if made of stuff) will use 
+			ShapeName defines the nature of the shape and how it uses the Points:
+				Rectangle
+				Circle
+				Triangle
+				Line
+				Point
+				Points2
+				Points3
+				Points4
+				
+			
+			Use of shapes via Points (A through D), each point is a IntVec3, so it takes in (int,int,int) as (x,y,z). 
+			The y value is used to input metadata to the spawner, 
+				PointA.y is the rotation direction, 
+				PointB.y > 0 is bool value for thing eraser (eraser will not spawn a thing but it will instead erase what is there)
+				PointC.y > 0 is bool value is for if terrain is roofed
+				PointD.y > 0 is bool value is for if terrain clears cell
+				
+			
+			
+			-->
+<MapLotsFramework.MapLotDef>
+		<defName>V14_Living10x16T2vv</defName>
+		<mapLotDef>
+		<LotName>V14_Living10x16T2v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(10,0, 16)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living10x16T2vv_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+<MapLotsFramework.MapLotDef>
+		<defName>V14_Power16x13T4</defName>
+		<mapLotDef>
+		<LotName>V14_Power16x13T4</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(16,0, 13)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Power16x10T4_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+	
+	<MapLotsFramework.MapLotDef>
+		<defName>V14_Medi13x10T1h</defName>
+		<mapLotDef>
+		<LotName>V14_Medi13x10T1h</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 10)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Medi13x10T1h_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+	
+	<MapLotsFramework.MapLotDef>
+		<defName>V14_Overseer15x15T6</defName>
+		<mapLotDef>
+		<LotName>V14_Overseer15x15T6</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(15,0, 15)</LotSize>
+		<IsSpecial>true</IsSpecial>
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Overseer15x15T6_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+<MapLotsFramework.MapLotDef>
+		<defName>V14_Mess16x10T2h</defName>
+		<mapLotDef>
+		<LotName>V14_Mess16x10T2h</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(16,0, 10)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Mess16x10T2h_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+	<MapLotsFramework.MapLotDef>
+		<defName>V14_Work10x13T1v</defName>
+		<mapLotDef>
+		<LotName>V14_Work10x13T1v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(10,0, 13)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Work10x13T1v_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+		<MapLotsFramework.MapLotDef>
+		<defName>V14_Living10x10T3</defName>
+		<mapLotDef>
+		<LotName>V14_Living10x10T3</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 13)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living10x10T3_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Living10x16T2v</defName>
+		<mapLotDef>
+		<LotName>V14_Living10x16T2v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(10,0, 16)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living10x16T2v_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+<MapLotsFramework.MapLotDef>
+		<defName>V14_Muti10x16T2v</defName>
+		<mapLotDef>
+		<LotName>V14_Muti10x16T2v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(10,0, 16)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Muti10x16T2v_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+
+
+
+	
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Medi15x15T6</defName>
+		<mapLotDef>
+		<LotName>V14_Medi15x15T6</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(15,0, 15)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Medi15x15T6_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+		
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Storage15x15T6</defName>
+		<mapLotDef>
+		<LotName>V14_Storage15x15T6</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(15,0, 15)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Storage15x15T6_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+				<MapLotsFramework.MapLotDef>
+		<defName>V14_Living10x13T1v</defName>
+		<mapLotDef>
+		<LotName>V14_Living10x13T1v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(10,0, 13)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living10x13T1v_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+	
+		<MapLotsFramework.MapLotDef>
+		<defName>V14_Rec13x10T1h</defName>
+		<mapLotDef>
+		<LotName>V14_Rec13x10T1h</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 10)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Rec13x10T1h_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Living15x15T6</defName>
+		<mapLotDef>
+		<LotName>V14_Living15x15T6</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(15,0, 15)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living15x15T6_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>	
+	
+	
+	
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Planting10x10T3</defName>
+		<mapLotDef>
+		<LotName>V14_Planting10x10T3</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 13)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Planting10x10T3_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+			<MapLotsFramework.MapLotDef>
+		<defName>V14_Living16x10T2h</defName>
+		<mapLotDef>
+		<LotName>V14_Living16x10T2h</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(16,0, 10)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living16x10T2h_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>		
+	
+	<MapLotsFramework.MapLotDef>
+		<defName>V14_Prison13x16T4v</defName>
+		<mapLotDef>
+		<LotName>V14_Prison10x16T4v</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 16)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Prison10x16T4v_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>		
+	
+				<MapLotsFramework.MapLotDef>
+		<defName>V14_Living37x37T6</defName>
+		<mapLotDef>
+		<LotName>V14_Living37x37T6_BP</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(37,0, 37)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Living37x37T6_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+		<MapLotsFramework.MapLotDef>
+		<defName>V14_Workshop13x10T1</defName>
+		<mapLotDef>
+		<LotName>V14_Workshop13x10T1</LotName>
+		<LotTags><li>A1</li></LotTags>
+		<LotSize>(13,0, 10)</LotSize>
+		
+		<useBlueprintDef>true</useBlueprintDef>
+		<BlueprintDefName>V14_Workshop13x10T1_BP</BlueprintDefName>
+		<Shapes> 
+		
+		</Shapes>
+	  </mapLotDef>
+	</MapLotsFramework.MapLotDef>
+	
+	</Defs>

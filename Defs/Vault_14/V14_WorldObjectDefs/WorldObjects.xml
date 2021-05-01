@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<WorldObjectDef>
+		<defName>Vault14Parent</defName>
+		<label>Vault 14</label>
+		<description>Sunken in the swamp, Vault 14 has never been opened since the war.</description>
+		<worldObjectClass>MapParent</worldObjectClass>
+		<texture>dev/Icon_vault_gear</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>dev/Vault14</expandingIconTexture>
+		<mapGenerator>VaultGen</mapGenerator>
+		<expandingIconPriority>6</expandingIconPriority>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+	
+</Defs>

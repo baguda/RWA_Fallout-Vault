@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<!--MapGeneratorDef Name="LabyrinthMap">
+	<defName>LabyrinthMap</defName>
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>RocksFromGrid</li>
+			<li>Terrain</li>
+			<li>CavesTerrain</li>
+			
+			<li>Labyrinth</li>
+			<li>RockChunks</li>
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+  
+  	<GenStepDef>
+	<defName>Labyrinth</defName>
+	<order>501</order>
+	<genStep Class="PRimUtility.GenStep_Labyrinth" />
+	</GenStepDef>
+  
+    <MapGeneratorDef Name="TownMapGen">
+	<defName>TownMapGen</defName>
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>RocksFromGrid</li>
+			<li>Terrain</li>
+			<li>CavesTerrain</li>
+			<li>RockChunks</li>
+			<li>TownMap</li>
+			
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+  
+  	<GenStepDef>
+	<defName>TownMap</defName>
+	<order>501</order>
+	<genStep Class="PRimUtility.GenStep_TownMap" />
+	</GenStepDef-->
+  
+      <MapGeneratorDef Name="VaultGen">
+	<defName>VaultGen</defName>
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>RocksFromGrid</li>
+			<li>Terrain</li>
+			<li>CavesTerrain</li>
+			<li>RockChunks</li>
+			<li>Vault</li>
+			
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+  
+  	<GenStepDef>
+	<defName>Vault</defName>
+	<order>420</order>
+	<genStep Class="DungeonFrameWork.GenStep_Labyrinth" />
+	</GenStepDef>
+	
+
+
+</Defs>

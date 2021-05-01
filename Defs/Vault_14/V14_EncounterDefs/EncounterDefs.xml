@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+
+
+
+  <DungeonFrameWork.EncounterDef>
+  		<defName>V14_Raiders_Basic</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>V14_Raiders</li>
+			<li>V14_RaidersRanged</li>
+			<li>V14_mattress</li>
+			<li>V14_mattress</li>
+			<li>V14_burnBarrel</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>25</encounterLevel>
+        <SpawnSpread>3</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(3,0,3)</roomSize>
+ <!-- LabyrinthDef.pathwidth < RoomSize.xy <= 2*LabyrinthDef.pathwidth-->
+  </DungeonFrameWork.EncounterDef>
+  
+  <DungeonFrameWork.EncounterDef>
+  		<defName>V14_Raiders_Advanced</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>V14_Raiders</li>
+			<li>V14_RaidersRanged</li>
+			<li>V14_RaidersRanged</li>
+			<li>V14_mattress</li>
+			<li>V14_mattress</li>
+			<li>V14_mattress</li>
+			<li>V14_burnBarrel</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>50</encounterLevel>
+        <SpawnSpread>3</SpawnSpread>
+ <!-- LabyrinthDef.pathwidth < RoomSize.xy <= 2*LabyrinthDef.pathwidth-->
+  </DungeonFrameWork.EncounterDef>
+   
+  </Defs>
