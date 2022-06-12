@@ -33,6 +33,7 @@
 		<li>ChunkSlate</li>
 		<li>V14_BarrelsToxicA</li>
 		</DungeonGenThingDefs>
+		
 	<!--Labyrinth Details-->	
 		<isFilled>true</isFilled>
         <isWalled>true</isWalled>

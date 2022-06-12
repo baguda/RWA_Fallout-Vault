@@ -39,8 +39,8 @@
 		<designationCategory>Misc</designationCategory>
 		<tickerType>Normal</tickerType>
 		<costList>
-			<Steel>500</Steel>
-			<Plasteel>250</Plasteel>
+			<Steel>100</Steel>
+			<Plasteel>75</Plasteel>
 			<ComponentIndustrial>30</ComponentIndustrial>
 			<ComponentSpacer>10</ComponentSpacer>
 			<!--V14VaultTechSatellite>1</V14VaultTechSatellite-->
@@ -63,7 +63,7 @@
 					<li>Vault14a</li>
 				</LabyrinthDefNameQueue>
 				<QueueRandom>false</QueueRandom>
-				<UseTargetBiome>true</UseTargetBiome>
+				<UseTargetBiome>false</UseTargetBiome>
 				<isPortal>false</isPortal>
 				<ShowAdventureInfo>false</ShowAdventureInfo>
 				<UseSameTile>false</UseSameTile>
@@ -82,9 +82,12 @@
 				<PushButtonLabel>Push In</PushButtonLabel>
 				<PushButtonDesc>Push things around the key to the labyrinth enterance!</PushButtonDesc>	
 				
+				<keyInfo>
+				"The RimWorld Adventure is built around unique, randomly generated instances of Labyrinths(dungeons) that have special rules for playing in them.\n\n – Turn Phases: Dungeons have periodic refreshing phases called Turn Phases that apply effects, conditions, and updates to the dungeon. Turns do not affect game speed. Turns apply slow healing to pawn injuries, help with pawn needs and thoughts, and do various other background tasks.\n\n - Party: Pawns must join a party by equipping an Adventure’s Backpack(crafted at the Adventure’s table) before entering a dungeon. Each dungeon has its own limit on party size that can enter. Party members are auto drafted in dungeons at the beginning of each turn.\n\n - Checkpoint: Dungeon entrances act as checkpoints for all pawns that pass through them. If a pawn is killed or downed in the dungeon, then they will be able to return to the checkpoint at the end of the turn.\n\n - Vitality: A pawn’s vitality is the culmination of a complex system of mental, physical, and situational variables that represents a person’s combat effectiveness in avoiding damage. Pawns will lose vitality when stopping attacks, and gain vitality over time. The total amount of vitality, the regen rate, and the effectiveness of the damage prevention depends on the pawn’s skills and current health. Events such as injuries, losing a party member, or defeating an enemy can also cause sudden swings in a pawn’s vitality.\n\n - Darkness: The darkest places hold the greatest dangers. Dungeons are incredibly dark and building in them is exceedingly difficult. Be sure to bring plenty of Adventure’s Flares and anything else you can to defeat the darkness.\n\n - Adventure Items, such as Adventure’s flares, first aid, and shield enable their wearer to preform special actions while in the dungeon.\n\n -Flares can be made from weapons and extra Adventure’s Torches. First aid can be made from clothing, medicine or extra first aid kits. Actions to make flares and aid will look for the items in the party member’s inventory and make only as many as needed. \n\n - Searchable Items: Be on the lookout for searchable items throughout the dungeons. Pawns must be close to get the option to search, so make sure don’t miss anything!"
+				</keyInfo>
 				
 				<GenButtonText>Locate Vault</GenButtonText>
-				<GenDialogText>"The machine quickly accesses the satellite's hard drive and begins scanning for \n\n(WARNING: Generating new dungeons can take considerable amounts of time depending on your hardware. \n\t\t\tPlease wait while the process completes.)"</GenDialogText>				
+				<GenDialogText>"The machine quickly accesses the satellite's hard drive and begins scanning for the vault's location! \n\n(WARNING: \nGenerating new dungeons can take considerable amounts of time depending on your hardware. \n   Please wait while the process completes.)"</GenDialogText>				
 								
 			</li>
  <li Class="CompProperties_Refuelable">
@@ -144,10 +147,9 @@
       <destroyShakeAmount>1</destroyShakeAmount>
     </building>
 		<costList>
-			<Steel>500</Steel>
-			<Plasteel>250</Plasteel>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<ComponentSpacer>10</ComponentSpacer>
+			<ChunkSlate>50</ChunkSlate>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="DungeonFrameWork.CompProperties_DungeonKey" >
@@ -173,8 +175,11 @@
 				<PushButtonLabel>Push In</PushButtonLabel>
 				<PushButtonDesc>Push things around the Vault enterance into the Vault!</PushButtonDesc>
 				<GenButtonText>Generate Dungeon</GenButtonText>
-				<GenDialogText>"The Vault's main door looks like it has been tampered with.  \n\n(WARNING: Generating new dungeons can take considerable amounts of time depending on your hardware. \n\t\t\tPlease wait while the process completes.)"</GenDialogText>				
-							
+				<GenDialogText>"The Vault's main door looks like it has been tampered with, but the controls are still operational. \n\n(WARNING: \nGenerating new dungeons can take considerable amounts of time depending on your hardware. \n   Please wait while the process completes.)"</GenDialogText>				
+				
+				<keyInfo>
+				"The RimWorld Adventure is built around unique, randomly generated instances of Labyrinths(dungeons) that have special rules for playing in them.\n\n – Turn Phases: Dungeons have periodic refreshing phases called Turn Phases that apply effects, conditions, and updates to the dungeon. Turns do not affect game speed. Turns apply slow healing to pawn injuries, help with pawn needs and thoughts, and do various other background tasks.\n\n - Party: Pawns must join a party by equipping an Adventure’s Backpack(crafted at the Adventure’s table) before entering a dungeon. Each dungeon has its own limit on party size that can enter. Party members are auto drafted in dungeons at the beginning of each turn.\n\n - Checkpoint: Dungeon entrances act as checkpoints for all pawns that pass through them. If a pawn is killed or downed in the dungeon, then they will be able to return to the checkpoint at the end of the turn.\n\n - Vitality: A pawn’s vitality is the culmination of a complex system of mental, physical, and situational variables that represents a person’s combat effectiveness in avoiding damage. Pawns will lose vitality when stopping attacks, and gain vitality over time. The total amount of vitality, the regen rate, and the effectiveness of the damage prevention depends on the pawn’s skills and current health. Events such as injuries, losing a party member, or defeating an enemy can also cause sudden swings in a pawn’s vitality.\n\n - Darkness: The darkest places hold the greatest dangers. Dungeons are incredibly dark and building in them is exceedingly difficult. Be sure to bring plenty of Adventure’s Flares and anything else you can to defeat the darkness.\n\n - Adventure Items, such as Adventure’s flares, first aid, and shield enable their wearer to preform special actions while in the dungeon.\n\n -Flares can be made from weapons and extra Adventure’s Torches. First aid can be made from clothing, medicine or extra first aid kits. Actions to make flares and aid will look for the items in the party member’s inventory and make only as many as needed. \n\n - Searchable Items: Be on the lookout for searchable items throughout the dungeons. Pawns must be close to get the option to search, so make sure don’t miss anything!"
+				</keyInfo>				
 							
 			</li>
 
@@ -443,10 +448,10 @@
 		<pathCost>50</pathCost>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<costList>
-			<Steel>500</Steel>
-			<Plasteel>250</Plasteel>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<ComponentSpacer>10</ComponentSpacer>
+			<Steel>150</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<comps>
 						      <li Class="CompProperties_Glower">
@@ -573,10 +578,8 @@
 		<pathCost>50</pathCost>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<costList>
-			<Steel>500</Steel>
-			<Plasteel>250</Plasteel>
-			<ComponentIndustrial>30</ComponentIndustrial>
-			<ComponentSpacer>10</ComponentSpacer>
+			<Steel>2</Steel>
+			<Cloth>10</Cloth>
 		</costList>
 		<comps>
 
